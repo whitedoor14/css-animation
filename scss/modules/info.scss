@@ -1,0 +1,36 @@
+/* 
+==============================
+        Info Styles
+==============================
+*/
+
+.info-me {
+    width: 50%;
+    height: 100%;
+
+    font-weight: 500;
+	font-size: 1em;
+}
+
+.info-title {
+    font-weight: 900;
+	font-size: 1.5em;
+
+    background: $info-title;
+    background: -webkit-linear-gradient(left, $info-title ,$color-one);
+    background: -o-linear-gradient(right, $info-title, $color-one);
+    background: -moz-linear-gradient(right, $info-title, $color-one);
+    background: linear-gradient(to right, $info-title, $color-one);
+}
+
+.info-content {
+    font-weight: 600;
+	font-size: 1em;
+/*
+    background: $info-content;
+    background: -webkit-linear-gradient(left, $info-content,$color-one);
+    background: -o-linear-gradient(right, $info-content, $color-one);
+    background: -moz-linear-gradient(right, $info-content, $color-one);
+    background: linear-gradient(to right, $info-content, $color-one);*/
+
+}

@@ -1,0 +1,42 @@
+/*Variables*/
+$non-transparent-black: rgba(0, 0, 0, 1) !default;
+$non-transparent-red: rgba(255, 0, 0, 1) !default;
+$non-transparent-yellow: rgba(255, 255, 0, 1) !default;
+$non-transparent-blue: rgba(0, 0, 255, 1) !default;
+$non-transparent-white: rgba(255, 255, 255, 1) !default;
+$fourty-transparent-white: rgba(255, 255, 255, 0.4) !default;
+$non-transparent-gray: rgba(211, 211, 211, 100) !default;
+$non-transparent-lightorange: #FFD700;
+
+/* Four colours for combination */
+/* Kite Studio Architecture 
+    https://tympanus.net/codrops/2011/12/08/25-examples-of-perfect-color-combinations-in-web-design/
+    http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html
+    https://designschool.canva.com/blog/website-color-schemes/
+*/
+$color-one: #BDBAB4; /* #222222; */
+$color-two: #FF6766; /* #D11250; */
+$color-three: #97CE68; /* #DB5800; */
+$color-four: #6BCBCA; /* #006899; */
+$color-five: #FF9900; /* #008F68; */
+
+
+/*index.html*/
+$home: $non-transparent-black !default;
+$about: $non-transparent-red !default;
+$extra: $non-transparent-yellow !default;
+$contact: $non-transparent-blue !default;
+$cv: $non-transparent-white !default;
+$overlay: $non-transparent-gray !default;
+
+/*home.html*/
+$header-bg: $non-transparent-black !default;
+$header-before-bg: $color-one !default;
+$header-before-bg-changed: $color-five !default;
+$title-before-bg:$color-two !default;
+$title-after-bg:$color-one !default;
+$h1-primary: $color-five !default;
+$text-shadow: $non-transparent-lightorange !default;
+$info-title: $color-three !default;
+$info-content: $color-five !default;
+$btn-bg: $color-four !default;

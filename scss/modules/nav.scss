@@ -1,0 +1,42 @@
+/* 
+==============================
+        Layout Styles
+==============================
+*/
+
+/* basic ul li */
+ul {
+    width: 100%;
+	line-height: 2;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* home.html */
+nav ul{
+	padding-left: 70%;
+	font-size: 35px;
+}
+
+nav li{
+    padding-right: 100%;
+    padding-left: 5px;
+    margin: 10px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* index.html */
+.info-me ul {
+	line-height: 4em;
+}
+
+.info-me li {
+    padding-left: 10px;
+	margin-bottom: 5px;
+}
